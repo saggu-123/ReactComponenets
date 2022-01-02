@@ -1,0 +1,27 @@
+.Form-hook{
+    background-color:#c4bdac ;
+    display:block;
+    
+    text-align: center;
+    margin:0 auto;
+    width: 30vw;
+    height: auto;
+    
+}
+.error{
+    color:rgb(236, 17, 17);
+    padding:0;
+}
+.invalid input{
+    border: 1px solid red;
+    background-color: rgb(226, 164, 164);
+}
+.invalid  input:focus{
+  background-color: rgb(226, 164, 164);
+  border-color: red;
+    
+}
+.success{
+    color:green;
+    font-size: 1rem;
+}

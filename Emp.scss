@@ -1,0 +1,42 @@
+.container{
+   display:block;
+    color:blueviolet;
+    background-color: blueviolet;
+    margin: 0 auto;
+    width:50vw;
+    
+
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0  auto;
+    font-size:2rem;
+   background-color: blueviolet;
+}
+.person{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 0 auto;
+  
+
+
+}
+
+.person img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    margin:20px;
+}
+button{
+    color:chartreuse;
+    background-color: crimson;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}

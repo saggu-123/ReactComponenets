@@ -1,0 +1,37 @@
+.wrapper{
+   
+    height:auto;
+    background-color: lightyellow;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size:30px;
+}
+.accordion{
+  display:flex;
+   text-decoration: magenta;
+   
+}
+.title-ac{
+    display:flex;
+    margin-left:20px;
+    cursor: pointer;
+}
+h3{
+    color:brown;
+    font-size: 30px;
+}
+.content{
+    color:rgb(150, 67, 35);
+    max-height:0;
+    overflow:hidden;
+
+    
+}
+ .showac{
+    height:auto;
+   max-height: 9999px;
+
+}
